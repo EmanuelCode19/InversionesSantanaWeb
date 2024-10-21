@@ -190,7 +190,7 @@ img{
     margin-top: 5rem;
     padding: var(--gap);
     background:linear-gradient(to top,#009432 50%,transparent 50%,transparent 50%),
-    url('/img/img-inversionesSantana.jpg'); 
+    url(../img/img-inversionesSantana.jpg); 
     background-repeat: no-repeat;
     background-position: 100%,top;
 }
@@ -210,7 +210,7 @@ img{
 @media(min-width:768px){
     .aboutUs{
         background:linear-gradient(to right,#009432 50%,transparent 50%,transparent 50%),
-        url('/img/img-inversionesSantana.jpg');
+        url(../img/img-inversionesSantana.jpg);
         background-repeat: no-repeat;
         background-position: 100%,40rem;
     }
@@ -225,7 +225,7 @@ img{
 @media(min-width:1300px){
     .aboutUs{
         background:linear-gradient(to right,#009432 50%,transparent 50%,transparent 50%),
-        url('/img/img-inversionesSantana.jpg');
+        url(../img/img-inversionesSantana.jpg);
         background-repeat: no-repeat;
         background-position: 100%,90rem;
     }
