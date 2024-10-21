@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home - Inversiones Santana </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/prestamo.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="header-text">
+                <p class="tagline-prestamos">Prestamos de Menor cuantia</p>
+                <h1 class="name-service degraded-green">Inversiones Santana</h1>
+
+            </div>
+        </div>
+    </div>
+<main>
+    <h2 class="text-center">Formulario de solicitud</h2>
+    <div class="custumer-request container">
+       <div class="img-container">
+        <img src="img/img-inversionesSantana.jpg" alt="">
+       </div>
+        <form class="form-request">
+             <div class="input-request">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" placeholder="Tu nombre" name="name">
+            </div>
+
+            <div class="input-request">
+                <label for="tel">Telefono</label>
+                <input type="tel" id="tel" placeholder="Tu numero de telefono" name="telefono">
+            </div>
+
+            <div class="input-request">
+                <label for="address">Direccion de Residencia</label>
+                <input type="text" id="address" placeholder="Tu direccion" name="address">
+            </div>
+
+            <div class="input-request">
+                <label for="numberId">Cedula de identidad</label>
+                <input type="text" id="numberId" placeholder="Tu cedula" name="numberId">
+            </div>
+
+            <div class="input-request">
+                <label for="salary">Ingresos</label>
+                <input type="text" id="salary" placeholder="Tus ingresos mensuales" name="salary">
+            </div>
+
+            <div class="input-request">
+                <label for="monto">Monto del prestamo</label>
+                <input type="text" id="monto" placeholder="Monto del prestamo que solicita" name="monto">
+            </div>
+
+            <div class="input-request">
+                <label for="modalidad">modalidad del prestamo</label>
+                <input type="text" id="modalidad" placeholder="modalidad preferidad" name="modalidad">
+            </div>
+
+            <div class="input-request">
+                <label for="email">E-mail</label>
+                <input type="email" id="input-email" placeholder="Correo electronico" name="email">
+            </div>
+            <button type="submit" id="button" >Solicitar</button>
+        </form>
+        <div class="sk-chase hidden">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+          </div>
+    </div>
+</main>
+   
+
+ 
+
+    <footer>
+        <h2 class="text-center">Inversiones Santana, Todos los Derechos Reservados 2024 &copy;</h2>
+    </footer>
+    
+</body>
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('bcV2FTZqnXzLaLEJl')
+</script>
+<script src="app.js"></script>
+</html>
