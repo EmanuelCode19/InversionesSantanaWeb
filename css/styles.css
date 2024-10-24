@@ -1,4 +1,5 @@
 /* custom properties */
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
 
 :root{
 
@@ -472,6 +473,35 @@ display: block;
     margin-bottom: 5rem;
     transition: all 0.3s ease-out
 }
+.social-media{
+   border-bottom: 1px solid #1f1313;
+}
+.social-media h3{
+    font-size: 2rem;
+}
+@media(min-width:768px){
+    .social-media h3{
+        font-size: 3rem;
+    }
+}
+.networks{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.link{
+   text-decoration: none;
+   font-size: 50px;
+}
+.link:nth-child(1){
+    color: var(--primaryColor);
+ }
+ .link:nth-child(2){
+    color: transparent;
+    background:linear-gradient(to right,#c0392b 0%, #f1c40f 100%);
+    -webkit-background-clip: text;
+ }
 /* Footer */
 
 footer h2{
